@@ -50,14 +50,15 @@ export default function App(): React.ReactElement {
 }
 
 function Plan({ icon, title, features, price }: Plan): React.ReactElement {
+//   return  
   return (
-    <div className="flex gap-4 items-center">
-      {icon}
-      <div>
+    <div className="flex p-6 bg-slate-300">
+      TT
+      {/* <div>
         <h3 className="text-lg font-semibold">{title}</h3>
         <p className="text-sm">{features.join(' · ')}</p>
       </div>
-      <span className="ml-auto font-medium">${price}</span>
+      <span className="ml-auto font-medium">${price}</span> */}
     </div>
   );
 }
